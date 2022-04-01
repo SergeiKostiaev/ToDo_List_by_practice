@@ -23,7 +23,7 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
-    margin: 0 calc((100vw - 384px) /2);  
+    margin: 0 calc((100vw - 290px) /2);  
     justify-content: space-between;
     
 }
@@ -65,7 +65,7 @@ aside {
 .aside_content {
     display: flex;
     flex-direction: column;
-    margin: 33px calc((100vw - 384px) /2);  
+    margin: 33px calc((100vw - 290px) /2);  
 }
 .text_inp {
     border: none;
@@ -81,7 +81,7 @@ aside {
     align-items: center;
     margin: 9px auto;
     font-size: 14px;
-    background: #0038FF;
+    background: #3747D7;
     border-radius: 5px;
     color: white;
     font-weight: 700;
@@ -93,7 +93,7 @@ main {
 .main_content {
     display: flex;
     flex-direction: column;
-    margin: 33px calc((100vw - 384px) /2);  
+    margin: 33px calc((100vw - 290px) /2);  
 }
 .todo_task {
     display: flex;
@@ -144,4 +144,46 @@ main {
     font-size: 14px;
     color: white;
     font-weight: 700;
+}
+/*------MAIN LC----------*/
+.titile_lc {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+.color_blue_title {
+    color: #3747D7;
+}
+.form_lc {
+    display: flex;
+    flex-direction: column;
+    margin: 15px auto;
+    height: 64px;
+    justify-content: space-between;
+}
+.inpLogin, .inpPass {
+    width: 290px;
+    height: 24px;
+    
+    border-radius: 5px;
+}
+.inpLogin::placeholder, .inpPass::placeholder {
+    color: white;
+    padding-left: 15px;
+}
+.enter_btn {
+    display: block;
+    width: 152px;
+    height: 32px;
+    background-color: #3747D7;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto;
+}
+.after_title {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 15px;
 }

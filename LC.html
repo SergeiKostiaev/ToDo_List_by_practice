@@ -5,9 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/img/Без имени-1.png">
     <title>Profile</title>
 </head>
 <body>
-    
+    <header class="header">
+        <div class="header_content">
+            <div class="header_logo">
+                <a href="/index.html">
+                    <img src="/img/Name.svg" alt="ToDo Logo" width="60">
+                </a>    
+            </div>
+            <div class="header_profile">   
+                <a class="profile_link" href="/LC.html"><span class="header_profile_name" id="profile_name">Войти</span></a>
+                <span class="photo_circle"></span>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main_content">
+            <h1 class="titile_lc"><span class="color_blue_title">ВХОД</span><br>
+                в личный кабинет
+            </h1>
+            <div class="form_lc">
+                <input class="inpLogin" type="text" placeholder="E-mail">
+                <input class="inpPass" type="password" placeholder="Password">
+            </div>
+            <div class="enter">
+                <input class="enter_btn" type="button" value="Войти">
+            </div>
+            <h2 class="after_title">Если вы не зарегистрированы, 
+                <br><a href="#"><span class="color_blue_title">Регистрация</span></a>
+            </h2>
+        </div>
+    </main>
 </body>
 </html>
