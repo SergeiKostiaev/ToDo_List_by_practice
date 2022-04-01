@@ -1,0 +1,147 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto';
+    font-size: 14px;
+}
+/*------HEADER----------*/
+.header {
+    display: flex;
+    width: 100vw;
+    height: 34px;
+    background-color: black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.header_content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 calc((100vw - 384px) /2);  
+    justify-content: space-between;
+    
+}
+/*------PROFILE----------*/
+.header_profile {
+    width: 70px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_profile_name {
+    font-size: 14px;
+}
+.profile_link {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+.done_name {
+    font-size: 8px;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+.photo_circle {
+    display: flex;
+    width: 22px;
+    height: 22px;
+    border-radius: 25px;
+    border: 1px solid white;
+}
+/*------ASIDE----------*/
+aside {
+    width: 100%;
+}
+.aside_content {
+    display: flex;
+    flex-direction: column;
+    margin: 33px calc((100vw - 384px) /2);  
+}
+.text_inp {
+    border: none;
+    border-bottom: 1px solid black ;
+    padding: 5px 0;
+}
+
+.add_btn {
+    display: block;
+    width: 152px;
+    height: 32px;
+    text-align: center;
+    align-items: center;
+    margin: 9px auto;
+    font-size: 14px;
+    background: #0038FF;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+/*------MAIN----------*/
+main {
+    width: 100%;
+}
+.main_content {
+    display: flex;
+    flex-direction: column;
+    margin: 33px calc((100vw - 384px) /2);  
+}
+.todo_task {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+.task_content {
+    background: #3747D7;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.description {
+    max-width: 80%;
+    margin: 14px 14px 14px 13px;
+    color: white;
+    font-size: 14px;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+.circle_color {
+    display: flex;
+    margin-right: 13px;
+    width: 14px;
+    height: 14px;
+    background-color: red;
+    border-radius: 25px;
+}
+.checked {
+    display: flex;
+    margin-right: 13px;
+    width: 14px;
+    height: 14px;
+    background-color: rgb(5, 255, 5);
+    border-radius: 25px;
+}
+.btn_del_done {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.del, .done {
+    width: 100px;
+    height: 28px;
+    background: #3747D7;
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+    font-weight: 700;
+}
